@@ -1,0 +1,48 @@
+.ls-button-root {
+    width: fit-content; //盒子会使用可用的空间，而不会超出max-content
+    button {
+        display: flex;
+        width: 100%;
+        margin: 0.25rem 0.125rem;
+        gap: 5px;
+        border: none;
+        outline: none;
+        color: #ffffff;
+        align-items: center;
+        justify-content: flex-start;
+        cursor: pointer;
+        .container {
+            display: flex;
+            flex: auto;
+            justify-content: center;
+            align-items: center;
+            width: fit-content;
+        }
+    }
+    button:active {
+        box-shadow: none;
+    }
+    button:disabled {
+        cursor: not-allowed;
+    }
+    .small {
+        min-width: 80px;
+        height: 32px;
+        font-size: 18px;
+    }
+    .large {
+        min-width: 96px;
+        height: 40px;
+        font-size: 24px;
+    }
+    .default {
+        color: #1f1f1f;
+        background-color: #e2e1e4;
+    }
+    .primary {
+        background-color: #2775b6;
+    }
+    .warning {
+        background-color: #ee3f4d;
+    }
+}
