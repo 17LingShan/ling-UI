@@ -1,10 +1,7 @@
-<script lang="ts" setup>
-import { LButton } from "./components";
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <LButton size="small">xihuan</LButton>
-  <LButton size="large">xihuan</LButton>
+  <LButton>test</LButton>
 </template>
 
 <style lang="scss" scoped></style>
