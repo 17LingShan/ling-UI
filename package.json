@@ -1,7 +1,7 @@
 {
   "name": "lingshan-ui",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "./dist/lingshan-ui.umd.cjs",
   "module": "./dist/lingshan-ui.js",
